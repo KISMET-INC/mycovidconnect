@@ -10,6 +10,7 @@ import Contact from "./containers/Contact";
 
 import ProtectedRoute from "./auth/protected-route";
 //comment
+  /* jshint esversion: 6 */
 import {
   COOKIEBOT_CONSENT_HEAD,
   COOKIEBOT_CONSENT_HEAD_DATA_CBID,
@@ -21,7 +22,6 @@ function App() {
   useEffect(() => {
     // import tawk script
 
-    /* jshint esversion: 6 */
     ((/** @type {Object} */ Tawk_API) => {
       Tawk_API = Tawk_API || {};
       // const Tawk_LoadStart = new Date();
