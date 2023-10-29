@@ -21,7 +21,6 @@ function App() {
   useEffect(() => {
     // import tawk script
 
-    /* jshint esversion: 6 */
     ((/** @type {Object} */ Tawk_API) => {
       Tawk_API = Tawk_API || {};
       // const Tawk_LoadStart = new Date();
